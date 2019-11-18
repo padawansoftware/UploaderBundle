@@ -1,0 +1,13 @@
+{
+    "name": "padawansoftware/uploader-bundle",
+    "type": "symfony-bundle",
+    "description": "Wrapper for VichUploaderBundle",
+    "license": "MIT",
+    "require": {
+        "vich/uploader-bundle": "^1.10",
+        "doctrine/orm": "^2.6"
+    },
+    "autoload": {
+        "psr-4": { "PSUploaderBundle\\": "" }
+    }
+}
